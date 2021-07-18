@@ -1,0 +1,16 @@
+===================================================================
+About the PVS.MediaPlayer Licenses
+
+PVS.MediaPlayer Version 1.4
+© Copyright 2021 PVS The Netherlands
+===================================================================
+
+The PVS.MediaPlayer library and the PVS.MediaPlayer sample applications and articles are licensed under The Code Project Open License (CPOL).
+
+PVS.MediaPlayer has built in (part of) the Media Foundation .NET library by nowinskie and snarfle (https://sourceforge.net/projects/mfnet).
+Licensed under either Lesser General Public License v2.1 or BSD.  See license.txt or BSDL.txt for details (http://mfnet.sourceforge.net).
+
+The license texts can be found on codeproject.com and sourceforge.net but are also included in the downloads of PVS.MediaPlayer (folder: PVS.MediaPlayer Licenses).
+
+===================================================================
+© PVS The Netherlands - June 2021
