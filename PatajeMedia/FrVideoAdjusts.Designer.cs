@@ -1,5 +1,5 @@
 ﻿
-namespace PatageMedia
+namespace PatajeMedia
 {
     partial class FrVideoAdjusts
     {

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0BBF198C-2705-4A7B-95F2-9EF0D1180CE6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PatageMedia</RootNamespace>
-    <AssemblyName>PatageMedia</AssemblyName>
+    <RootNamespace>PatajeMedia</RootNamespace>
+    <AssemblyName>PatajeMedia</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-using static PatageMedia.Fms;
+using static PatajeMedia.Fms;
 
-namespace PatageMedia
+namespace PatajeMedia
 {
     public partial class FrVideoAdjusts : Form
     {

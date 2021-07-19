@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
-using static PatageMedia.globalmod;
-using static PatageMedia.Fms;
+using static PatajeMedia.globalmod;
+using static PatajeMedia.Fms;
 
-namespace PatageMedia
+namespace PatajeMedia
 {
     public partial class FrCtl : Form
     {
@@ -80,13 +80,13 @@ namespace PatageMedia
 
                 if (played)
                 {
-                    btplay.BackgroundImage = PatageMedia.Properties.Resources.play;
+                    btplay.BackgroundImage = PatajeMedia.Properties.Resources.play;
                     oFrPlay.mplay.Paused = true;
                     played = false;
                 }
                 else
                 {
-                    btplay.BackgroundImage = PatageMedia.Properties.Resources.pause;
+                    btplay.BackgroundImage = PatajeMedia.Properties.Resources.pause;
                     // FrPlay.mplay.Paused = False
                     oFrPlay.mplay.Resume();
                     if (oFrPlay.mplay.Media.GetVideoTracks() == null && IsVideo(FileOpened))

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace PatageMedia
+namespace PatajeMedia
 {
     public static class globalmod
     {

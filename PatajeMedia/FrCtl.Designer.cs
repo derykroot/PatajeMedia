@@ -1,5 +1,5 @@
 ﻿
-namespace PatageMedia
+namespace PatajeMedia
 {
     partial class FrCtl
     {
@@ -115,7 +115,7 @@ namespace PatageMedia
             // 
             // btnext
             // 
-            this.btnext.BackgroundImage = global::PatageMedia.Properties.Resources.next;
+            this.btnext.BackgroundImage = global::PatajeMedia.Properties.Resources.next;
             this.btnext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnext.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -127,7 +127,7 @@ namespace PatageMedia
             // 
             // btprev
             // 
-            this.btprev.BackgroundImage = global::PatageMedia.Properties.Resources.prev;
+            this.btprev.BackgroundImage = global::PatajeMedia.Properties.Resources.prev;
             this.btprev.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btprev.Dock = System.Windows.Forms.DockStyle.Left;
             this.btprev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -139,7 +139,7 @@ namespace PatageMedia
             // 
             // btnextfrms
             // 
-            this.btnextfrms.BackgroundImage = global::PatageMedia.Properties.Resources.nextframes;
+            this.btnextfrms.BackgroundImage = global::PatajeMedia.Properties.Resources.nextframes;
             this.btnextfrms.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnextfrms.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnextfrms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -151,7 +151,7 @@ namespace PatageMedia
             // 
             // btprevfrms
             // 
-            this.btprevfrms.BackgroundImage = global::PatageMedia.Properties.Resources.prevframes;
+            this.btprevfrms.BackgroundImage = global::PatajeMedia.Properties.Resources.prevframes;
             this.btprevfrms.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btprevfrms.Dock = System.Windows.Forms.DockStyle.Left;
             this.btprevfrms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -194,7 +194,7 @@ namespace PatageMedia
             // 
             // btstop
             // 
-            this.btstop.BackgroundImage = global::PatageMedia.Properties.Resources.stop;
+            this.btstop.BackgroundImage = global::PatajeMedia.Properties.Resources.stop;
             this.btstop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btstop.Dock = System.Windows.Forms.DockStyle.Left;
             this.btstop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -207,7 +207,7 @@ namespace PatageMedia
             // 
             // btplay
             // 
-            this.btplay.BackgroundImage = global::PatageMedia.Properties.Resources.play;
+            this.btplay.BackgroundImage = global::PatajeMedia.Properties.Resources.play;
             this.btplay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btplay.Dock = System.Windows.Forms.DockStyle.Left;
             this.btplay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

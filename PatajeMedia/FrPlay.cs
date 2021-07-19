@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-using static PatageMedia.globalmod;
-using static PatageMedia.Fms;
+using static PatajeMedia.globalmod;
+using static PatajeMedia.Fms;
 
-namespace PatageMedia
+namespace PatajeMedia
 {
 
     public partial class FrPlay : Form
@@ -148,7 +148,7 @@ namespace PatageMedia
             mplay.Stop();
             mplay.Paused = false;
 
-            Fms.oFrCtl.btplay.BackgroundImage = PatageMedia.Properties.Resources.pause;
+            Fms.oFrCtl.btplay.BackgroundImage = PatajeMedia.Properties.Resources.pause;
 
             mplay.Play(fl, this);
             // mplay.Subtitles.FileName = extreplace(fl, "srt")
@@ -183,12 +183,12 @@ namespace PatageMedia
 
         private void mediaend(object sender, PVS.MediaPlayer.EndedEventArgs e)
         {
-            oFrCtl.btplay.BackgroundImage = PatageMedia.Properties.Resources.play;
+            oFrCtl.btplay.BackgroundImage = PatajeMedia.Properties.Resources.play;
             oFrCtl.played = false;
         }
         private void mediastart(object sender, EventArgs e)
         {
-            oFrCtl.btplay.BackgroundImage = PatageMedia.Properties.Resources.pause;
+            oFrCtl.btplay.BackgroundImage = PatajeMedia.Properties.Resources.pause;
             oFrCtl.played = true;
         }
         private void mediaposchanged(object sender, PVS.MediaPlayer.PositionEventArgs e)
