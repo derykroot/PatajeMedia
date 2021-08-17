@@ -30,6 +30,7 @@ namespace PatajeMedia
 
         private void FrPlay_Load(object sender, EventArgs e)
         {
+            FrCtl.SetWindowText(this.Handle, "PatajeMedia");
             mplay.Sliders.Position.TrackBar = oFrCtl.TBPos;
             mplay.Sliders.AudioVolume = oFrCtl.TrackBVol;
 

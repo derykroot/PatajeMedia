@@ -331,7 +331,7 @@ namespace PatajeMedia
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrCtl";
-            this.Text = "FrCtl";
+            this.Text = "PatajeControl";
             this.Load += new System.EventHandler(this.FrCtl_Load);
             this.TableLayoutPanel1.ResumeLayout(false);
             this.TableLayoutPanel2.ResumeLayout(false);

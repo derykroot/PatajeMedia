@@ -75,6 +75,7 @@ namespace PatajeMedia
         }
         public static bool IsImage(string filenm)
         {
+            if (filenm is null) return false;
             var ext = (new System.IO.FileInfo(filenm)).Extension.Replace(".", "").ToLower();
 
             return extimgs.Contains(ext) ? true : false;
