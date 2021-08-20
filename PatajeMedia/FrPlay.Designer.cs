@@ -86,6 +86,7 @@ namespace PatajeMedia
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrPlay";
+            this.ShowInTaskbar = false;
             this.Load += new System.EventHandler(this.FrPlay_Load);
             this.ContextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);

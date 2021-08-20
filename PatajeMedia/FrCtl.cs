@@ -35,6 +35,9 @@ namespace PatajeMedia
             // ----- move form
             pnbartop.MouseMove += new System.Windows.Forms.MouseEventHandler(pn_mousemove);
             pnmove.MouseMove += new System.Windows.Forms.MouseEventHandler(pn_mousemove);
+            this.Activated += new EventHandler((object sender, EventArgs e) => { 
+                SetWindowPos(oFrPlay.Handle, this.Handle, oFrPlay.Location.X, oFrPlay.Location.Y, oFrPlay.Width, oFrPlay.Height, 0x10);
+            });
         }
 
         private void pn_mousemove(object sender, MouseEventArgs e)
