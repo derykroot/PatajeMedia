@@ -56,8 +56,14 @@ namespace PatajeMedia
         }
 
         private void FrCtl_Load(object sender, EventArgs e)
-        {
+        {            
             Fms.oFrPlay.Show();
+
+            String[] args = System.Environment.GetCommandLineArgs();
+            if (args.Length > 1)
+            {
+                oFrPlay.LoadMedia(args[1]);
+            }
 
             this.btstop.Click += new System.EventHandler(Btplaystop_Click);
             this.btplay.Click += new System.EventHandler(Btplaystop_Click);
